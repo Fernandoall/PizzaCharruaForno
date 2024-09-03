@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA","sources":["src/styles/main.css"],"sourcesContent":["body {\r\n  font-family: Arial, sans-serif;\r\n}\r\n\r\nh1 {\r\n  color: #ff5733; /* Cor de exemplo para o título */\r\n}\r\n"],"names":[],"version":3,"file":"index.5525e4b8.css.map","sourceRoot":"/__parcel_source_root/"}
