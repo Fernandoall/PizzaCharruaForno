@@ -1,0 +1,14 @@
+.menu-page {
+  padding: 20px;
+}
+
+.menu-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.menu-list h2 {
+  font-size: 2em;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}

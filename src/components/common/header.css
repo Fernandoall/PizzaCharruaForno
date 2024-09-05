@@ -1,0 +1,42 @@
+.header {
+  background-color: var(--nav-bg);
+  padding: 15px 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header .logo h1 {
+  margin: 0;
+  color: var(--primary-text);
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.navigation ul li {
+  display: inline;
+}
+
+.navigation ul li a {
+  color: var(--primary-text);
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.navigation ul li a:hover {
+  color: var(--button-hover);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 5px 10px;
+}

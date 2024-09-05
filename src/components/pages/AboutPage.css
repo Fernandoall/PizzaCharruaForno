@@ -1,0 +1,21 @@
+.about-page {
+  padding: 20px;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+}
+
+.about-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section h2 {
+  font-size: 2em;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}

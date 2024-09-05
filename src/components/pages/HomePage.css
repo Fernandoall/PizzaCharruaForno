@@ -1,0 +1,36 @@
+.home-page {
+  text-align: center;
+  padding: 20px;
+  background: url(#) no-repeat center center/cover;
+  color: var(--primary-text);
+}
+
+.intro h2 {
+  font-size: 2.5em;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.offers {
+  margin-top: 30px;
+}
+
+.offers h3 {
+  font-size: 1.8em;
+  color: var(--color-primary);
+}
+
+.offers ul {
+  list-style: none;
+  padding: 0;
+}
+
+.offers ul li {
+  font-size: 1.1em;
+  margin: 10px 0;
+}

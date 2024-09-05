@@ -1,22 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "./HeaderComponent.css";
 
 function HeaderComponent() {
   return (
-    <header>
-      <h1>Pizza Delícia</h1>
+    <header className="header">
+      <h1>Forno Charrua</h1>
       <nav>
-        <ul>
-          <li>
-            <Link to="/">Início</Link>
-          </li>
-          <li>
-            <Link to="/menu">Menu</Link>
-          </li>
-          <li>
-            <Link to="/order">Pedido</Link>
-          </li>
-        </ul>
+        <a href="/">Home</a>
+        <a href="/menu">Menu</a>
+        <a href="/order">Order Now</a>
       </nav>
     </header>
   );

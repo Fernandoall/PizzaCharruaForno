@@ -1,7 +1,52 @@
-body {
-  font-family: Arial, sans-serif;
+/* Paleta de Cores com Degradê */
+:root {
+  --primary-bg: #1c1c1c; /* Fundo Principal: Preto escuro */
+  --primary-text: #f0f0f0; /* Texto Principal: Branco */
+  --button-bg: linear-gradient(
+    135deg,
+    #ff4500,
+    #ff6347
+  ); /* Botões: Degradê vermelho escuro para laranja queimado */
+  --button-hover: linear-gradient(
+    135deg,
+    #ff6347,
+    #ff4500
+  ); /* Hover: Degradê invertido */
+  --nav-bg: #2f2f2f; /* Fundo do Menu de Navegação */
 }
 
-h1 {
-  color: #ff5733; /* Cor de exemplo para o título */
+/* Layout Consistente */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background: var(--button-bg);
+  border: none;
+  padding: 10px 20px;
+  color: var(--primary-text);
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: var(--button-hover);
+}
+
+/* Melhorias de Responsividade */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
 }

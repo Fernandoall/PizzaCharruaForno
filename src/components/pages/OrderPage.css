@@ -1,0 +1,53 @@
+.order-page {
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+  background: url(#) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.order-section {
+  margin-top: 40px;
+  background-color: rgba(
+    250,
+    243,
+    224,
+    0.9
+  ); /* Fundo leve para destacar o conteúdo */
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.order-section h2 {
+  font-size: 2.8em;
+  color: #d32f2f; /* Vermelho destacado */
+}
+
+.order-section p {
+  font-size: 1.5em;
+  color: #795548; /* Tom de madeira */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .order-page {
+    padding: 10px;
+  }
+
+  .order-section h2 {
+    font-size: 2.2em;
+  }
+
+  .order-section p {
+    font-size: 1.3em;
+  }
+}
