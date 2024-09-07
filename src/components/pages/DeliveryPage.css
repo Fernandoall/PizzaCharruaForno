@@ -1,0 +1,88 @@
+/* DeliveryPage.css */
+
+.delivery-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.delivery-section {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.delivery-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.delivery-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.delivery-form label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.delivery-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.delivery-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .delivery-section {
+    padding: 20px;
+  }
+
+  .delivery-section h2 {
+    font-size: 20px;
+  }
+
+  .delivery-form label {
+    font-size: 14px;
+  }
+
+  .delivery-form input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .submit-btn {
+    font-size: 16px;
+  }
+}
