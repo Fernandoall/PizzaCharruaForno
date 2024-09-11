@@ -1,32 +1,43 @@
 /* Paleta de Cores com Degradê */
 :root {
-  --primary-bg: #1c1c1c; /* Fundo Principal: Preto escuro */
-  --primary-text: #f0f0f0; /* Texto Principal: Branco */
-  --button-bg: linear-gradient(
-    135deg,
-    #ff4500,
-    #ff6347
-  ); /* Botões: Degradê vermelho escuro para laranja queimado */
+  --primary-bg: #1c1c1c; /* Fundo Principal */
+  --primary-text: #f0f0f0; /* Texto Principal */
+  --button-bg: linear-gradient(135deg, #ff4500, #ff6347); /* Botões: Degradê */
   --button-hover: linear-gradient(
     135deg,
     #ff6347,
     #ff4500
-  ); /* Hover: Degradê invertido */
+  ); /* Hover invertido */
   --nav-bg: #2f2f2f; /* Fundo do Menu de Navegação */
+  --color-secondary: #ff6347; /* Cor Secundária */
+  --font-primary: "Poppins", sans-serif;
+  --font-size-base: 1rem; /* Tamanho Base de Fonte */
+  --font-size-large: 1.5rem; /* Tamanho Grande de Fonte */
+  --spacing: 1rem; /* Espaçamento Base */
 }
 
 /* Layout Consistente */
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--primary-bg);
+  background-color: #000;
   color: var(--primary-text);
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
   line-height: 1.6;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: var(--spacing);
+}
+
 .main-content {
-  padding: 20px;
+  padding: var(--spacing);
   text-align: center;
 }
 
@@ -36,8 +47,9 @@ button {
   padding: 10px 20px;
   color: var(--primary-text);
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: var(--spacing);
   transition: background 0.3s ease-in-out;
+  border-radius: 4px;
 }
 
 button:hover {
@@ -48,5 +60,9 @@ button:hover {
 @media (max-width: 768px) {
   body {
     padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
   }
 }

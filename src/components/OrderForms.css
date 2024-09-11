@@ -1,72 +1,126 @@
+.order-page {
+  background-color: var(--primary-bg); /* Preto escuro */
+  color: var(--primary-text); /* Branco */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-section {
+  background-color: #2f2f2f; /* Cinza padrão do site */
+  color: #f0f0f0; /* Cor da fonte */
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto; /* Centraliza a seção */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.order-section:hover {
+  transform: scale(1.02); /* Leve aumento ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.order-section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.order-section p {
+  margin-bottom: 20px;
+}
+
 .order-form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   max-width: 600px;
   margin: 0 auto;
-  background: rgba(250, 243, 224, 0.9); /* Fundo claro */
   padding: 20px;
   border-radius: 8px;
+  background-color: #2f2f2f; /* Cinza padrão do site */
+  color: #f0f0f0; /* Cor da fonte para contraste */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .order-form:hover {
-  transform: scale(1.02);
+  transform: scale(1.02); /* Leve aumento ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.form-group {
+.pizza-item {
+  border: 1px solid #444; /* Borda escura para contraste */
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #1c1c1c; /* Fundo dos itens de pizza */
+  color: #f0f0f0; /* Cor da fonte dos itens de pizza */
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.pizza-item:hover {
+  border-color: #007bff;
+  background-color: #2a2a2a;
+}
+
+.pizza-item h3 {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+}
+
+.order-form label {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
+  color: #f0f0f0; /* Cor do texto dos rótulos */
 }
 
-.form-group label {
-  margin-bottom: 5px;
-  font-weight: 600;
-  color: #388e3c; /* Verde escuro */
-}
-
-.form-group input,
-.form-group select {
+.order-form select,
+.order-form input {
+  width: 100%;
   padding: 10px;
-  font-size: 1.2em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: border-color 0.3s;
+  border: 1px solid #444; /* Borda escura para contraste */
+  border-radius: 4px;
+  margin-top: 5px;
+  background-color: #1c1c1c; /* Fundo escuro dos campos */
+  color: #f0f0f0; /* Cor da fonte nos campos */
+  box-sizing: border-box; /* Garante que padding e border não aumentem a largura total */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.form-group input:focus,
-.form-group select:focus {
-  border-color: #d32f2f; /* Vermelho no foco */
+.order-form select:focus,
+.order-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
 }
 
-button {
-  padding: 15px 20px;
-  background-color: #d32f2f;
-  color: #faf3e0;
-  font-family: "Poppins", sans-serif;
+.order-form .submit-btn {
+  background-color: #28a745;
+  color: white;
   border: none;
-  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
   cursor: pointer;
-  font-size: 1.2em;
-  margin-top: 10px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #ffeb3b; /* Amarelo */
-  color: #388e3c; /* Verde escuro */
+.order-form .submit-btn:hover {
+  background-color: #218838;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-  .order-form {
-    max-width: 100%;
-    padding: 15px;
-  }
+.order-form button[type="button"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-  button {
-    font-size: 1em;
-    padding: 10px;
-  }
+.order-form button[type="button"]:hover {
+  background-color: #0056b3;
 }

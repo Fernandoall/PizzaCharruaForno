@@ -1,36 +1,205 @@
+/* Estilos para a página HomePage */
 .home-page {
-  text-align: center;
   padding: 20px;
-  background: url(#) no-repeat center center/cover;
-  color: var(--primary-text);
+}
+
+/* Estilização da seção de introdução */
+.intro {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  color: #faf3e0;
+  text-align: center;
+}
+
+.intro-text h2 {
+  color: #ff4500;
 }
 
 .intro h2 {
   font-size: 2.5em;
-  color: var(--color-secondary);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .intro p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ff4500;
+  color: white; /* Cor do texto branco */
+  padding: 12px 24px;
   font-size: 1.2em;
-  line-height: 1.5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  display: inline-block; /* Garante que o link se comporte como botão */
 }
 
-.offers {
-  margin-top: 30px;
+.cta-button:hover {
+  background-color: #ff4500;
+  color: black;
 }
 
-.offers h3 {
-  font-size: 1.8em;
-  color: var(--color-primary);
+/* Estilos para a seção de ofertas especiais */
+.offers-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #111; /* Seção de ofertas com fundo preto mais claro */
 }
 
-.offers ul {
-  list-style: none;
-  padding: 0;
+.offers-section h3 {
+  font-size: 2.5em;
+  color: #ff6600; /* Título da seção em laranja */
+  margin-bottom: 30px;
 }
 
-.offers ul li {
+.offer-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.offer-card {
+  background-color: #222; /* Cartões com fundo cinza escuro */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+}
+
+.offer-card {
+}
+
+.offer-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.offer-card .offer-price {
+  font-weight: bold;
+  color: #ff6600; /* Preço em laranja */
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.offer-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.offer-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.offer-card h4 {
+  font-size: 1.5em;
+  color: #ff6600;
+}
+
+.offer-card p {
   font-size: 1.1em;
-  margin: 10px 0;
+  color: white;
+}
+
+.offer-price {
+  font-size: 3em;
+  color: #ff6600;
+  margin-top: 10px;
+}
+
+/* Seção promocional */
+.promo-section {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.promo-section h3 {
+  font-size: 2em;
+  color: #ff6600;
+}
+
+.promo-section p {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Seção de testemunhos */
+.testimonials {
+  background-color: #111;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Organizar os itens em grade */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* 2 colunas em telas maiores, 1 em menores */
+  gap: 20px;
+}
+
+.testimonial-item {
+  background-color: #222; /* Testemunhos com fundo cinza escuro */
+  padding: 20px;
+  margin: 0 auto; /* Removemos margem extra */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Botão fixo */
+.cta-fixed-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff6600;
+  color: #000; /* Texto do botão fixo em preto para contraste */
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  display: inline-block; /* Garante que o link se comporte como botão */
+}
+
+.cta-fixed-button:hover {
+  color: black;
+  background-color: #ff4500;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .offer-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .offer-card {
+    width: 90%;
+  }
+
+  .cta-fixed-button {
+    width: 90%;
+    bottom: 10px;
+  }
 }
