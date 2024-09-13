@@ -1,19 +1,24 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // Importar useNavigate para redirecionar
 import Header from "../common/header";
 import "./DeliveryPage.css";
 
 function DeliveryPage() {
+  const navigate = useNavigate(); // Definir navegação para redirecionamento
   const [location, setLocation] = useState({ latitude: "", longitude: "" });
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
-  const [cep, setCep] = useState(""); // Campo para o CEP
+  const [cep, setCep] = useState("");
   const [address, setAddress] = useState("");
+  const [number, setNumber] = useState(""); // Novo estado para o número
+  const [complement, setComplement] = useState(""); // Novo estado para o complemento
   const [city, setCity] = useState("");
   const [state, setState] = useState("");
-  const [deliveryDate, setDeliveryDate] = useState(""); // Campo para agendar a data
-  const [deliveryTime, setDeliveryTime] = useState(""); // Campo para agendar a hora
+  const [deliveryDate, setDeliveryDate] = useState("");
+  const [deliveryTime, setDeliveryTime] = useState("");
+  const [pizzas, setPizzas] = useState([]);
+  const [total, setTotal] = useState("0.00");
 
-  // Função para obter a localização do dispositivo
   useEffect(() => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((position) => {
@@ -25,9 +30,18 @@ function DeliveryPage() {
     } else {
       alert("Geolocalização não é suportada pelo navegador.");
     }
+
+    // Carregar as pizzas e o total do localStorage
+    const savedPizzas = localStorage.getItem("pizzas");
+    const savedTotal = localStorage.getItem("total");
+    if (savedPizzas) {
+      setPizzas(JSON.parse(savedPizzas));
+    }
+    if (savedTotal) {
+      setTotal(savedTotal);
+    }
   }, []);
 
-  // Função para buscar o endereço baseado no CEP usando a API do ViaCEP
   const handleCepChange = async (event) => {
     const inputCep = event.target.value;
     setCep(inputCep);
@@ -52,8 +66,7 @@ function DeliveryPage() {
     }
   };
 
-  // Função para enviar os dados para o banco de dados
-  const handleSubmit = async (event) => {
+  const handleSubmit = (event) => {
     event.preventDefault();
 
     const orderData = {
@@ -61,39 +74,21 @@ function DeliveryPage() {
       phone,
       cep,
       address,
+      number, // Adicionar o número ao pedido
+      complement, // Adicionar o complemento ao pedido
       city,
       state,
       deliveryDate,
       deliveryTime,
+      pizzas,
+      total,
     };
 
-    try {
-      const response = await fetch("/api/orders", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(orderData),
-      });
+    // Simular a criação do pedido antes de ir para a página de pagamento
+    localStorage.setItem("orderData", JSON.stringify(orderData)); // Salvar o pedido no localStorage
 
-      if (response.ok) {
-        alert("Pedido agendado com sucesso!");
-        // Limpar o formulário após o envio
-        setName("");
-        setPhone("");
-        setCep("");
-        setAddress("");
-        setCity("");
-        setState("");
-        setDeliveryDate("");
-        setDeliveryTime("");
-      } else {
-        alert("Erro ao agendar o pedido. Tente novamente.");
-      }
-    } catch (error) {
-      console.error("Erro:", error);
-      alert("Erro ao agendar o pedido.");
-    }
+    // Redirecionar para a página de pagamento
+    navigate("/payment");
   };
 
   return (
@@ -101,6 +96,23 @@ function DeliveryPage() {
       <Header />
       <section className="delivery-section">
         <h2>Informações de Entrega</h2>
+        <div className="pizza-list">
+          <h3>Suas Pizzas</h3>
+          {pizzas.length > 0 ? (
+            <ul>
+              {pizzas.map((pizza, index) => (
+                <li key={index}>
+                  {pizza.flavor} - Quantidade: {pizza.quantity}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p>Nenhuma pizza foi adicionada.</p>
+          )}
+        </div>
+        <div className="order-total">
+          <p>Total do Pedido: R${total}</p>
+        </div>
         <form className="delivery-form" onSubmit={handleSubmit}>
           <label htmlFor="name">
             Nome Completo
@@ -145,6 +157,27 @@ function DeliveryPage() {
               value={address}
               readOnly
               required
+            />
+          </label>
+          <label htmlFor="number">
+            Número
+            <input
+              type="text"
+              id="number"
+              placeholder="Número da residência"
+              value={number}
+              onChange={(e) => setNumber(e.target.value)}
+              required
+            />
+          </label>
+          <label htmlFor="complement">
+            Complemento
+            <input
+              type="text"
+              id="complement"
+              placeholder="Complemento (opcional)"
+              value={complement}
+              onChange={(e) => setComplement(e.target.value)}
             />
           </label>
           <label htmlFor="city">

@@ -43,6 +43,12 @@ function HomePage() {
             <p>Molho de tomate, mussarela e fatias de pepperoni.</p>
             <p className="offer-price">R$ 44,90</p>
           </div>
+          <div className="offer-card">
+            <img src="url-da-imagem-2" alt="Oferta 2" className="offer-image" />
+            <h4>Pizza Pepperoni</h4>
+            <p>Molho de tomate, mussarela e fatias de pepperoni.</p>
+            <p className="offer-price">R$ 44,90</p>
+          </div>
         </div>
       </section>
 
@@ -92,17 +98,6 @@ function HomePage() {
           </div>
 
           {/* Novo Testemunho 3 */}
-          <div className="testimonial-item">
-            <img
-              src="url-da-imagem-3"
-              alt="Carlos Souza"
-              className="testimonial-image"
-            />
-            <p>"Pizza crocante e saborosa, sempre chega quentinha!"</p>
-            <h4>- Carlos Souza</h4>
-          </div>
-
-          {/* Novo Testemunho 4 */}
           <div className="testimonial-item">
             <img
               src="url-da-imagem-4"

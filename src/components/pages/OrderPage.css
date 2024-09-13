@@ -1,9 +1,13 @@
+/* OrderPage.css */
+
 .order-page {
   background-color: var(--primary-bg); /* Preto escuro */
   color: var(--primary-text); /* Branco */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
+  padding: 20px;
 }
 
 .order-section {
@@ -23,6 +27,8 @@
 }
 
 .order-section h2 {
+  text-align: center;
+  color: #ff4500;
   margin-bottom: 20px;
   font-size: 2rem;
 }
@@ -78,8 +84,10 @@
   box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
 }
 
-.order-form .submit-btn {
-  background-color: #28a745;
+.order-form .submit-btn,
+.order-form .add-btn,
+.order-form .remove-btn {
+  background-color: #007bff; /* Cor padrão dos botões */
   color: white;
   border: none;
   padding: 10px;
@@ -87,8 +95,42 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  width: 100%; /* Largura completa para botões */
+}
+
+.order-form .submit-btn {
+  background-color: #28a745;
 }
 
 .order-form .submit-btn:hover {
   background-color: #218838;
+}
+
+.order-form .add-btn {
+  background-color: #007bff;
+}
+
+.order-form .add-btn:hover {
+  background-color: #0056b3;
+}
+
+.order-form .remove-btn {
+  background-color: #dc3545; /* Cor do botão Remover */
+}
+
+.order-form .remove-btn:hover {
+  background-color: #c82333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .order-form {
+    padding: 10px;
+  }
+
+  .order-form .add-btn,
+  .order-form .remove-btn {
+    width: 100%; /* Largura completa para botões em telas menores */
+    margin-top: 10px; /* Espaço acima dos botões */
+  }
 }

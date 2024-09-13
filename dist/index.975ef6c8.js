@@ -27233,8 +27233,12 @@ var _menuPage = require("./pages/MenuPage");
 var _menuPageDefault = parcelHelpers.interopDefault(_menuPage);
 var _orderPage = require("./pages/OrderPage");
 var _orderPageDefault = parcelHelpers.interopDefault(_orderPage);
+var _deliveryPage = require("./pages/DeliveryPage");
+var _deliveryPageDefault = parcelHelpers.interopDefault(_deliveryPage);
 var _aboutPage = require("./pages/AboutPage");
 var _aboutPageDefault = parcelHelpers.interopDefault(_aboutPage);
+var _paymentPage = require("./pages/PaymentPage");
+var _paymentPageDefault = parcelHelpers.interopDefault(_paymentPage);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27245,32 +27249,8 @@ function App() {
                         path: "/",
                         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homePageDefault.default), {}, void 0, false, {
                             fileName: "src/components/app.js",
-                            lineNumber: 13,
-                            columnNumber: 36
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/components/app.js",
-                        lineNumber: 13,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/menu",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuPageDefault.default), {}, void 0, false, {
-                            fileName: "src/components/app.js",
-                            lineNumber: 14,
-                            columnNumber: 40
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/components/app.js",
-                        lineNumber: 14,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/order",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _orderPageDefault.default), {}, void 0, false, {
-                            fileName: "src/components/app.js",
                             lineNumber: 15,
-                            columnNumber: 41
+                            columnNumber: 36
                         }, void 0)
                     }, void 0, false, {
                         fileName: "src/components/app.js",
@@ -27278,31 +27258,79 @@ function App() {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/about",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutPageDefault.default), {}, void 0, false, {
+                        path: "/menu",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuPageDefault.default), {}, void 0, false, {
                             fileName: "src/components/app.js",
                             lineNumber: 16,
-                            columnNumber: 41
+                            columnNumber: 40
                         }, void 0)
                     }, void 0, false, {
                         fileName: "src/components/app.js",
                         lineNumber: 16,
                         columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/order",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _orderPageDefault.default), {}, void 0, false, {
+                            fileName: "src/components/app.js",
+                            lineNumber: 17,
+                            columnNumber: 41
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/components/app.js",
+                        lineNumber: 17,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/about",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutPageDefault.default), {}, void 0, false, {
+                            fileName: "src/components/app.js",
+                            lineNumber: 18,
+                            columnNumber: 41
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/components/app.js",
+                        lineNumber: 18,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/payment",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _paymentPageDefault.default), {}, void 0, false, {
+                            fileName: "src/components/app.js",
+                            lineNumber: 19,
+                            columnNumber: 43
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/components/app.js",
+                        lineNumber: 19,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/delivery",
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _deliveryPageDefault.default), {}, void 0, false, {
+                            fileName: "src/components/app.js",
+                            lineNumber: 20,
+                            columnNumber: 44
+                        }, void 0)
+                    }, void 0, false, {
+                        fileName: "src/components/app.js",
+                        lineNumber: 20,
+                        columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/app.js",
-                lineNumber: 12,
+                lineNumber: 14,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "src/components/app.js",
-            lineNumber: 11,
+            lineNumber: 13,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/app.js",
-        lineNumber: 10,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
@@ -27316,7 +27344,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","./pages/HomePage":"5kqAA","./pages/MenuPage":"fEnEB","./pages/OrderPage":"gndwv","./pages/AboutPage":"2vRez","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9xmpe":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","./pages/HomePage":"5kqAA","./pages/MenuPage":"fEnEB","./pages/OrderPage":"gndwv","./pages/AboutPage":"2vRez","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./pages/DeliveryPage":"bafnG","./pages/PaymentPage":"bGoLS"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.26.1
  *
@@ -34484,6 +34512,7 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
 var _header = require("../common/header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _homePageCss = require("./HomePage.css");
@@ -34493,74 +34522,362 @@ function HomePage() {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/components/pages/HomePage.js",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                 className: "intro",
+                style: {
+                    backgroundImage: "url('/path-to-image.jpg')"
+                },
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "intro-text",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                            children: "Bem-vindo \xe0 Fornos Charrua"
+                        }, void 0, false, {
+                            fileName: "src/components/pages/HomePage.js",
+                            lineNumber: 17,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "Na Fornos Charrua, voc\xea encontra a verdadeira paix\xe3o pela pizza. Feita com ingredientes selecionados, nossa pizza \xe9 conhecida pelo sabor aut\xeantico e a qualidade incompar\xe1vel."
+                        }, void 0, false, {
+                            fileName: "src/components/pages/HomePage.js",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/menu",
+                            className: "cta-button",
+                            children: "Veja Nosso Menu"
+                        }, void 0, false, {
+                            fileName: "src/components/pages/HomePage.js",
+                            lineNumber: 23,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/pages/HomePage.js",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/pages/HomePage.js",
+                lineNumber: 12,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                className: "offers-section",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "Bem-vindo \xe0 Fornos Charrua"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: "Ofertas Especiais"
                     }, void 0, false, {
                         fileName: "src/components/pages/HomePage.js",
-                        lineNumber: 10,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Na Fornos Charrua, voc\xea encontra a verdadeira paix\xe3o pela pizza. Feita com ingredientes selecionados, nossa pizza \xe9 conhecida pelo sabor aut\xeantico e a qualidade incompar\xe1vel."
-                    }, void 0, false, {
-                        fileName: "src/components/pages/HomePage.js",
-                        lineNumber: 11,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "offers",
+                        className: "offer-cards",
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                children: "Ofertas Especiais:"
-                            }, void 0, false, {
-                                fileName: "src/components/pages/HomePage.js",
-                                lineNumber: 17,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "offer-card",
                                 children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "Segunda-feira: Pizza Margherita com 20% de desconto!"
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: "url-da-imagem-1",
+                                        alt: "Oferta 1",
+                                        className: "offer-image"
                                     }, void 0, false, {
                                         fileName: "src/components/pages/HomePage.js",
-                                        lineNumber: 19,
+                                        lineNumber: 34,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "Quarta-feira: Leve 2 Pizzas pelo pre\xe7o de 1 em qualquer sabor!"
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                        children: "Pizza Margherita"
                                     }, void 0, false, {
                                         fileName: "src/components/pages/HomePage.js",
-                                        lineNumber: 20,
+                                        lineNumber: 35,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Cl\xe1ssica pizza com molho de tomate, mussarela, manjeric\xe3o."
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 36,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "offer-price",
+                                        children: "R$ 39,90"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 37,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/pages/HomePage.js",
-                                lineNumber: 18,
+                                lineNumber: 33,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "offer-card",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: "url-da-imagem-2",
+                                        alt: "Oferta 2",
+                                        className: "offer-image"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 41,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                        children: "Pizza Pepperoni"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 42,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Molho de tomate, mussarela e fatias de pepperoni."
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 43,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "offer-price",
+                                        children: "R$ 44,90"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 44,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/HomePage.js",
+                                lineNumber: 40,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "offer-card",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: "url-da-imagem-2",
+                                        alt: "Oferta 2",
+                                        className: "offer-image"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 47,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                        children: "Pizza Pepperoni"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 48,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Molho de tomate, mussarela e fatias de pepperoni."
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 49,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "offer-price",
+                                        children: "R$ 44,90"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 50,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/HomePage.js",
+                                lineNumber: 46,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/pages/HomePage.js",
-                        lineNumber: 16,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/pages/HomePage.js",
-                lineNumber: 9,
+                lineNumber: 30,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                className: "promo-section",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: "Descubra Nossas Novidades!"
+                    }, void 0, false, {
+                        fileName: "src/components/pages/HomePage.js",
+                        lineNumber: 56,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Estamos sempre inovando para oferecer a melhor experi\xeancia. Experimente nossas novas receitas exclusivas ou aproveite nosso programa de fidelidade para garantir pr\xeamios incr\xedveis!"
+                    }, void 0, false, {
+                        fileName: "src/components/pages/HomePage.js",
+                        lineNumber: 57,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/order",
+                        className: "cta-button",
+                        children: "Fa\xe7a Seu Pedido Agora!"
+                    }, void 0, false, {
+                        fileName: "src/components/pages/HomePage.js",
+                        lineNumber: 62,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/pages/HomePage.js",
+                lineNumber: 55,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                className: "testimonials",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: "O que nossos clientes dizem"
+                    }, void 0, false, {
+                        fileName: "src/components/pages/HomePage.js",
+                        lineNumber: 69,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "testimonial-grid",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "testimonial-item",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: "url-da-imagem-1",
+                                        alt: "Jo\xe3o Silva",
+                                        className: "testimonial-image"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 74,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: '"Melhor pizza da cidade! Atendimento r\xe1pido e eficiente. Recomendo a todos!"'
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 79,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                        children: "- Jo\xe3o Silva"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 83,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/HomePage.js",
+                                lineNumber: 73,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "testimonial-item",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: "url-da-imagem-2",
+                                        alt: "Maria Oliveira",
+                                        className: "testimonial-image"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 88,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: '"Ingredientes frescos e pizza deliciosa. Sempre pe\xe7o aqui com a fam\xedlia!"'
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 93,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                        children: "- Maria Oliveira"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 97,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/HomePage.js",
+                                lineNumber: 87,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "testimonial-item",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: "url-da-imagem-4",
+                                        alt: "Ana Costa",
+                                        className: "testimonial-image"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 102,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: '"Uma verdadeira experi\xeancia gastron\xf4mica. Atendimento excelente!"'
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 107,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                        children: "- Ana Costa"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/HomePage.js",
+                                        lineNumber: 110,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/HomePage.js",
+                                lineNumber: 101,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/pages/HomePage.js",
+                        lineNumber: 71,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/pages/HomePage.js",
+                lineNumber: 68,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                to: "/order",
+                className: "cta-fixed-button",
+                children: "Fa\xe7a Seu Pedido Agora!"
+            }, void 0, false, {
+                fileName: "src/components/pages/HomePage.js",
+                lineNumber: 115,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/pages/HomePage.js",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -34574,7 +34891,176 @@ $RefreshReg$(_c, "HomePage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../common/header":"j7cwe","./HomePage.css":"ggJyX"}],"km3Ru":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","../common/header":"j7cwe","./HomePage.css":"ggJyX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"j7cwe":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2161 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2161.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _headerCss = require("./header.css");
+var _s = $RefreshSig$();
+function Header() {
+    _s();
+    const [isMenuOpen, setIsMenuOpen] = (0, _react.useState)(false);
+    const toggleMenu = ()=>setIsMenuOpen(!isMenuOpen);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+        className: "header",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "logo",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    children: "Fornos Charrua"
+                }, void 0, false, {
+                    fileName: "src/components/common/header.js",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/common/header.js",
+                lineNumber: 12,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                className: `navigation ${isMenuOpen ? "open" : ""}`,
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/",
+                                onClick: ()=>setIsMenuOpen(false),
+                                children: "In\xedcio"
+                            }, void 0, false, {
+                                fileName: "src/components/common/header.js",
+                                lineNumber: 18,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/common/header.js",
+                            lineNumber: 17,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/menu",
+                                onClick: ()=>setIsMenuOpen(false),
+                                children: "Card\xe1pio"
+                            }, void 0, false, {
+                                fileName: "src/components/common/header.js",
+                                lineNumber: 23,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/common/header.js",
+                            lineNumber: 22,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/order",
+                                onClick: ()=>setIsMenuOpen(false),
+                                children: "Fa\xe7a Seu Pedido"
+                            }, void 0, false, {
+                                fileName: "src/components/common/header.js",
+                                lineNumber: 28,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/common/header.js",
+                            lineNumber: 27,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/about",
+                                onClick: ()=>setIsMenuOpen(false),
+                                children: "Sobre N\xf3s"
+                            }, void 0, false, {
+                                fileName: "src/components/common/header.js",
+                                lineNumber: 33,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/common/header.js",
+                            lineNumber: 32,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/contact",
+                                onClick: ()=>setIsMenuOpen(false),
+                                children: "Contato"
+                            }, void 0, false, {
+                                fileName: "src/components/common/header.js",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/common/header.js",
+                            lineNumber: 37,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/common/header.js",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/common/header.js",
+                lineNumber: 15,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                className: "menu-toggle",
+                onClick: toggleMenu,
+                children: "\u2630"
+            }, void 0, false, {
+                fileName: "src/components/common/header.js",
+                lineNumber: 44,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "cta",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                    to: "/order",
+                    className: "order-btn",
+                    children: "Pe\xe7a Agora"
+                }, void 0, false, {
+                    fileName: "src/components/common/header.js",
+                    lineNumber: 48,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/common/header.js",
+                lineNumber: 47,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/common/header.js",
+        lineNumber: 11,
+        columnNumber: 5
+    }, this);
+}
+_s(Header, "vK10R+uCyHfZ4DZVnxbYkMWJB8g=");
+_c = Header;
+exports.default = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$2161.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","./header.css":"6IQuB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6IQuB":[function() {},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -34712,127 +35198,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"j7cwe":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2161 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2161.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _headerCss = require("./Header.css");
-function Header() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-        className: "header",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "logo",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: "Fornos Charrua"
-                }, void 0, false, {
-                    fileName: "src/components/common/header.js",
-                    lineNumber: 9,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "src/components/common/header.js",
-                lineNumber: 8,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                className: "navigation",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/common/header.js",
-                                lineNumber: 14,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/common/header.js",
-                            lineNumber: 13,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/menu",
-                                children: "Menu"
-                            }, void 0, false, {
-                                fileName: "src/components/common/header.js",
-                                lineNumber: 17,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/common/header.js",
-                            lineNumber: 16,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/order",
-                                children: "Order Now"
-                            }, void 0, false, {
-                                fileName: "src/components/common/header.js",
-                                lineNumber: 20,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/common/header.js",
-                            lineNumber: 19,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/about",
-                                children: "About Us"
-                            }, void 0, false, {
-                                fileName: "src/components/common/header.js",
-                                lineNumber: 23,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/common/header.js",
-                            lineNumber: 22,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/common/header.js",
-                    lineNumber: 12,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "src/components/common/header.js",
-                lineNumber: 11,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/common/header.js",
-        lineNumber: 7,
-        columnNumber: 5
-    }, this);
-}
-_c = Header;
-exports.default = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$2161.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","./Header.css":"l81Jh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"l81Jh":[function() {},{}],"ggJyX":[function() {},{}],"fEnEB":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"ggJyX":[function() {},{}],"fEnEB":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$32ee = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34868,40 +35234,73 @@ function MenuPage() {
                         lineNumber: 11,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuItemDefault.default), {
-                        name: "Pizza Margherita",
-                        description: "Tomate, manjeric\xe3o e mozzarella",
-                        price: "R$35,00"
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "menu-items-container",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuItemDefault.default), {
+                                name: "Pizza Margherita",
+                                description: "Tomate, manjeric\xe3o e mozzarella",
+                                price: "R$35,00",
+                                imageUrl: "/path/to/margherita.jpg"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/MenuPage.js",
+                                lineNumber: 13,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuItemDefault.default), {
+                                name: "Pizza Pepperoni",
+                                description: "Pepperoni e mozzarella",
+                                price: "R$40,00",
+                                imageUrl: "/path/to/pepperoni.jpg"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/MenuPage.js",
+                                lineNumber: 19,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuItemDefault.default), {
+                                name: "Pizza Quatro Queijos",
+                                description: "Mozzarella, gorgonzola, provolone e parmes\xe3o",
+                                price: "R$45,00",
+                                imageUrl: "/path/to/quatro-queijos.jpg"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/MenuPage.js",
+                                lineNumber: 25,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuItemDefault.default), {
+                                name: "Pizza Costela Seca",
+                                description: "Mozzarella, gorgonzola, provolone e parmes\xe3o",
+                                price: "R$45,00",
+                                imageUrl: "/path/to/quatro-queijos.jpg"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/MenuPage.js",
+                                lineNumber: 31,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuItemDefault.default), {
+                                name: "Pizza Frango Catupiry",
+                                description: "Mozzarella, gorgonzola, provolone e parmes\xe3o",
+                                price: "R$45,00",
+                                imageUrl: "/path/to/quatro-queijos.jpg"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/MenuPage.js",
+                                lineNumber: 37,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuItemDefault.default), {
+                                name: "Pizza Vegetariana",
+                                description: "Tomate, piment\xe3o, azeitona, cogumelos e mozzarella",
+                                price: "R$38,00",
+                                imageUrl: "/path/to/vegetariana.jpg"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/MenuPage.js",
+                                lineNumber: 43,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/pages/MenuPage.js",
                         lineNumber: 12,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuItemDefault.default), {
-                        name: "Pizza Pepperoni",
-                        description: "Pepperoni e mozzarella",
-                        price: "R$40,00"
-                    }, void 0, false, {
-                        fileName: "src/components/pages/MenuPage.js",
-                        lineNumber: 17,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuItemDefault.default), {
-                        name: "Pizza Quatro Queijos",
-                        description: "Mozzarella, gorgonzola, provolone e parmes\xe3o",
-                        price: "R$45,00"
-                    }, void 0, false, {
-                        fileName: "src/components/pages/MenuPage.js",
-                        lineNumber: 22,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuItemDefault.default), {
-                        name: "Pizza Vegetariana",
-                        description: "Tomate, piment\xe3o, azeitona, cogumelos e mozzarella",
-                        price: "R$38,00"
-                    }, void 0, false, {
-                        fileName: "src/components/pages/MenuPage.js",
-                        lineNumber: 27,
                         columnNumber: 9
                     }, this)
                 ]
@@ -34939,55 +35338,77 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
 var _menuItemCss = require("./MenuItem.css");
-function MenuItem({ title, description, price, imageUrl }) {
+var _s = $RefreshSig$();
+function MenuItem({ name, description, price, imageUrl }) {
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const handleClick = ()=>{
+        navigate("/order"); // Redireciona para a página de pedidos
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "menu-item",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 src: imageUrl,
-                alt: title,
+                alt: name,
                 className: "menu-item-image"
             }, void 0, false, {
                 fileName: "src/components/MenuItem.js",
-                lineNumber: 7,
+                lineNumber: 14,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: title
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "menu-item-details",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: name
+                    }, void 0, false, {
+                        fileName: "src/components/MenuItem.js",
+                        lineNumber: 16,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: description
+                    }, void 0, false, {
+                        fileName: "src/components/MenuItem.js",
+                        lineNumber: 17,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        children: price
+                    }, void 0, false, {
+                        fileName: "src/components/MenuItem.js",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: handleClick,
+                        children: "Pe\xe7a Agora"
+                    }, void 0, false, {
+                        fileName: "src/components/MenuItem.js",
+                        lineNumber: 19,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/MenuItem.js",
-                lineNumber: 8,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: description
-            }, void 0, false, {
-                fileName: "src/components/MenuItem.js",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                children: price
-            }, void 0, false, {
-                fileName: "src/components/MenuItem.js",
-                lineNumber: 10,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                children: "Pe\xe7a Agora"
-            }, void 0, false, {
-                fileName: "src/components/MenuItem.js",
-                lineNumber: 11,
+                lineNumber: 15,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/MenuItem.js",
-        lineNumber: 6,
+        lineNumber: 13,
         columnNumber: 5
     }, this);
 }
+_s(MenuItem, "CzcTeTziyjMsSrAVmHuCCb6+Bfg=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
 _c = MenuItem;
 exports.default = MenuItem;
 var _c;
@@ -34998,7 +35419,7 @@ $RefreshReg$(_c, "MenuItem");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./MenuItem.css":"4eU1g","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4eU1g":[function() {},{}],"1St0F":[function() {},{}],"gndwv":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./MenuItem.css":"4eU1g","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe"}],"4eU1g":[function() {},{}],"1St0F":[function() {},{}],"gndwv":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$d11f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35010,55 +35431,283 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
 var _header = require("../common/header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
-var _orderForms = require("../OrderForms");
-var _orderFormsDefault = parcelHelpers.interopDefault(_orderForms);
 var _orderPageCss = require("./OrderPage.css");
+var _s = $RefreshSig$();
+const pizzaPrices = {
+    "Pizza Margherita": 25.0,
+    "Pizza Pepperoni": 30.0,
+    "Pizza Quatro Queijos": 35.0,
+    "Pizza Vegetariana": 28.0,
+    "Pizza Calabresa": 27.0,
+    "Pizza Portuguesa": 32.0
+};
 function OrderPage() {
+    _s();
+    const [pizzas, setPizzas] = (0, _react.useState)([
+        {
+            flavor: "Pizza Margherita",
+            quantity: 1
+        }
+    ]);
+    const navigate = (0, _reactRouterDom.useNavigate)(); // Hook de navegação
+    const handlePizzaChange = (index, event)=>{
+        const newPizzas = [
+            ...pizzas
+        ];
+        newPizzas[index].flavor = event.target.value;
+        setPizzas(newPizzas);
+    };
+    const handleQuantityChange = (index, event)=>{
+        const newPizzas = [
+            ...pizzas
+        ];
+        newPizzas[index].quantity = parseInt(event.target.value, 10);
+        setPizzas(newPizzas);
+    };
+    const handleAddPizza = ()=>{
+        setPizzas([
+            ...pizzas,
+            {
+                flavor: "Pizza Margherita",
+                quantity: 1
+            }
+        ]);
+    };
+    const handleRemovePizza = (index)=>{
+        const newPizzas = pizzas.filter((_, i)=>i !== index);
+        setPizzas(newPizzas);
+    };
+    const calculateTotal = ()=>{
+        return pizzas.reduce((total, pizza)=>{
+            const price = pizzaPrices[pizza.flavor] || 0;
+            return total + price * pizza.quantity;
+        }, 0).toFixed(2); // Retorna o total com 2 casas decimais
+    };
+    const handleSubmit = (event)=>{
+        event.preventDefault();
+        // Salva as pizzas e o total no localStorage
+        localStorage.setItem("pizzas", JSON.stringify(pizzas));
+        localStorage.setItem("total", calculateTotal());
+        // Redireciona para a página de entrega
+        navigate("/delivery");
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "order-page",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/components/pages/OrderPage.js",
-                lineNumber: 9,
+                lineNumber: 62,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                 className: "order-section",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "Monte sua Pizza Perfeita"
+                        children: "Monte seu Pedido"
                     }, void 0, false, {
                         fileName: "src/components/pages/OrderPage.js",
-                        lineNumber: 11,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Escolha seus ingredientes favoritos e fa\xe7a seu pedido agora!"
+                        children: "Escolha suas pizzas e fa\xe7a seu pedido agora!"
                     }, void 0, false, {
                         fileName: "src/components/pages/OrderPage.js",
-                        lineNumber: 12,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _orderFormsDefault.default), {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                        className: "order-form",
+                        onSubmit: handleSubmit,
+                        children: [
+                            pizzas.map((pizza, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "pizza-item",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                            htmlFor: `pizza-${index}`,
+                                            children: [
+                                                "Selecione a Pizza",
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
+                                                    id: `pizza-${index}`,
+                                                    value: pizza.flavor,
+                                                    onChange: (event)=>handlePizzaChange(index, event),
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                                            value: "Pizza Margherita",
+                                                            children: "Pizza Margherita"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/pages/OrderPage.js",
+                                                            lineNumber: 76,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                                            value: "Pizza Pepperoni",
+                                                            children: "Pizza Pepperoni"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/pages/OrderPage.js",
+                                                            lineNumber: 77,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                                            value: "Pizza Quatro Queijos",
+                                                            children: "Pizza Quatro Queijos"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/pages/OrderPage.js",
+                                                            lineNumber: 78,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                                            value: "Pizza Vegetariana",
+                                                            children: "Pizza Costela Seca"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/pages/OrderPage.js",
+                                                            lineNumber: 81,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                                            value: "Pizza Calabresa",
+                                                            children: "Pizza Frango Catupiry"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/pages/OrderPage.js",
+                                                            lineNumber: 82,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                                            value: "Pizza Portuguesa",
+                                                            children: "Pizza Vegetariana"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/pages/OrderPage.js",
+                                                            lineNumber: 83,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/components/pages/OrderPage.js",
+                                                    lineNumber: 71,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/pages/OrderPage.js",
+                                            lineNumber: 69,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                            htmlFor: `quantity-${index}`,
+                                            children: [
+                                                "Quantidade",
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                                    type: "number",
+                                                    id: `quantity-${index}`,
+                                                    min: "1",
+                                                    value: pizza.quantity,
+                                                    onChange: (event)=>handleQuantityChange(index, event)
+                                                }, void 0, false, {
+                                                    fileName: "src/components/pages/OrderPage.js",
+                                                    lineNumber: 88,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/components/pages/OrderPage.js",
+                                            lineNumber: 86,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            type: "button",
+                                            className: "remove-btn",
+                                            onClick: ()=>handleRemovePizza(index),
+                                            children: "Remover Pizza"
+                                        }, void 0, false, {
+                                            fileName: "src/components/pages/OrderPage.js",
+                                            lineNumber: 96,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, index, true, {
+                                    fileName: "src/components/pages/OrderPage.js",
+                                    lineNumber: 68,
+                                    columnNumber: 13
+                                }, this)),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "button",
+                                className: "add-btn",
+                                onClick: handleAddPizza,
+                                children: "Adicionar Pizza"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/OrderPage.js",
+                                lineNumber: 105,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                children: [
+                                    "Observa\xe7\xf5es",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                        placeholder: "Digite suas observa\xe7\xf5es (opcional)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/OrderPage.js",
+                                        lineNumber: 110,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/OrderPage.js",
+                                lineNumber: 108,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "order-total",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: [
+                                        "Total: R$",
+                                        calculateTotal()
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/pages/OrderPage.js",
+                                    lineNumber: 113,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/pages/OrderPage.js",
+                                lineNumber: 112,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "submit",
+                                className: "submit-btn",
+                                children: "Enviar Pedido"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/OrderPage.js",
+                                lineNumber: 115,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/pages/OrderPage.js",
-                        lineNumber: 13,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/pages/OrderPage.js",
-                lineNumber: 10,
+                lineNumber: 63,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/pages/OrderPage.js",
-        lineNumber: 8,
+        lineNumber: 61,
         columnNumber: 5
     }, this);
 }
+_s(OrderPage, "9tjm/M6O3ju4wFTV0mSkXEOActE=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
 _c = OrderPage;
 exports.default = OrderPage;
 var _c;
@@ -35069,169 +35718,7 @@ $RefreshReg$(_c, "OrderPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../common/header":"j7cwe","../OrderForms":"bwFhU","./OrderPage.css":"gC8wQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bwFhU":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1b1f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1b1f.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _orderFormsCss = require("./OrderForms.css");
-function OrderForm() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-        className: "order-form",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "form-group",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                        htmlFor: "pizza-type",
-                        children: "Escolha o tipo de pizza"
-                    }, void 0, false, {
-                        fileName: "src/components/OrderForms.js",
-                        lineNumber: 8,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
-                        id: "pizza-type",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                children: "Marguerita"
-                            }, void 0, false, {
-                                fileName: "src/components/OrderForms.js",
-                                lineNumber: 10,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                children: "Calabresa"
-                            }, void 0, false, {
-                                fileName: "src/components/OrderForms.js",
-                                lineNumber: 11,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                children: "Quatro Queijos"
-                            }, void 0, false, {
-                                fileName: "src/components/OrderForms.js",
-                                lineNumber: 12,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/OrderForms.js",
-                        lineNumber: 9,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/OrderForms.js",
-                lineNumber: 7,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "form-group",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                        htmlFor: "size",
-                        children: "Escolha o tamanho"
-                    }, void 0, false, {
-                        fileName: "src/components/OrderForms.js",
-                        lineNumber: 17,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
-                        id: "size",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                children: "Pequena"
-                            }, void 0, false, {
-                                fileName: "src/components/OrderForms.js",
-                                lineNumber: 19,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                children: "M\xe9dia"
-                            }, void 0, false, {
-                                fileName: "src/components/OrderForms.js",
-                                lineNumber: 20,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
-                                children: "Grande"
-                            }, void 0, false, {
-                                fileName: "src/components/OrderForms.js",
-                                lineNumber: 21,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/OrderForms.js",
-                        lineNumber: 18,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/OrderForms.js",
-                lineNumber: 16,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "form-group",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                        htmlFor: "extras",
-                        children: "Adicionais"
-                    }, void 0, false, {
-                        fileName: "src/components/OrderForms.js",
-                        lineNumber: 26,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "text",
-                        id: "extras",
-                        placeholder: "Ex: Bacon, borda recheada"
-                    }, void 0, false, {
-                        fileName: "src/components/OrderForms.js",
-                        lineNumber: 27,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/OrderForms.js",
-                lineNumber: 25,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                type: "submit",
-                children: "Fazer Pedido"
-            }, void 0, false, {
-                fileName: "src/components/OrderForms.js",
-                lineNumber: 34,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/OrderForms.js",
-        lineNumber: 6,
-        columnNumber: 5
-    }, this);
-}
-_c = OrderForm;
-exports.default = OrderForm;
-var _c;
-$RefreshReg$(_c, "OrderForm");
-
-  $parcel$ReactRefreshHelpers$1b1f.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./OrderForms.css":"bYb4W","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bYb4W":[function() {},{}],"gC8wQ":[function() {},{}],"2vRez":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","../common/header":"j7cwe","./OrderPage.css":"gC8wQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gC8wQ":[function() {},{}],"2vRez":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$af00 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35295,6 +35782,789 @@ $RefreshReg$(_c, "AboutPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./AboutPage.css":"a5Bos","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../common/header":"j7cwe"}],"a5Bos":[function() {},{}]},["farZc","1xC6H","8lqZg"], "8lqZg", "parcelRequire5129")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../common/header":"j7cwe","./AboutPage.css":"a5Bos","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"a5Bos":[function() {},{}],"bafnG":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c54d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c54d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom"); // Importar useNavigate para redirecionar
+var _header = require("../common/header");
+var _headerDefault = parcelHelpers.interopDefault(_header);
+var _deliveryPageCss = require("./DeliveryPage.css");
+var _s = $RefreshSig$();
+function DeliveryPage() {
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)(); // Definir navegação para redirecionamento
+    const [location, setLocation] = (0, _react.useState)({
+        latitude: "",
+        longitude: ""
+    });
+    const [name, setName] = (0, _react.useState)("");
+    const [phone, setPhone] = (0, _react.useState)("");
+    const [cep, setCep] = (0, _react.useState)("");
+    const [address, setAddress] = (0, _react.useState)("");
+    const [number, setNumber] = (0, _react.useState)(""); // Novo estado para o número
+    const [complement, setComplement] = (0, _react.useState)(""); // Novo estado para o complemento
+    const [city, setCity] = (0, _react.useState)("");
+    const [state, setState] = (0, _react.useState)("");
+    const [deliveryDate, setDeliveryDate] = (0, _react.useState)("");
+    const [deliveryTime, setDeliveryTime] = (0, _react.useState)("");
+    const [pizzas, setPizzas] = (0, _react.useState)([]);
+    const [total, setTotal] = (0, _react.useState)("0.00");
+    (0, _react.useEffect)(()=>{
+        if (navigator.geolocation) navigator.geolocation.getCurrentPosition((position)=>{
+            setLocation({
+                latitude: position.coords.latitude,
+                longitude: position.coords.longitude
+            });
+        });
+        else alert("Geolocaliza\xe7\xe3o n\xe3o \xe9 suportada pelo navegador.");
+        // Carregar as pizzas e o total do localStorage
+        const savedPizzas = localStorage.getItem("pizzas");
+        const savedTotal = localStorage.getItem("total");
+        if (savedPizzas) setPizzas(JSON.parse(savedPizzas));
+        if (savedTotal) setTotal(savedTotal);
+    }, []);
+    const handleCepChange = async (event)=>{
+        const inputCep = event.target.value;
+        setCep(inputCep);
+        if (inputCep.length === 8) try {
+            const response = await fetch(`https://viacep.com.br/ws/${inputCep}/json/`);
+            const data = await response.json();
+            if (data.erro) alert("CEP inv\xe1lido. Por favor, tente novamente.");
+            else {
+                setAddress(data.logradouro);
+                setCity(data.localidade);
+                setState(data.uf);
+            }
+        } catch (error) {
+            console.error("Erro ao buscar o CEP:", error);
+        }
+    };
+    const handleSubmit = (event)=>{
+        event.preventDefault();
+        const orderData = {
+            name,
+            phone,
+            cep,
+            address,
+            number,
+            complement,
+            city,
+            state,
+            deliveryDate,
+            deliveryTime,
+            pizzas,
+            total
+        };
+        // Simular a criação do pedido antes de ir para a página de pagamento
+        localStorage.setItem("orderData", JSON.stringify(orderData)); // Salvar o pedido no localStorage
+        // Redirecionar para a página de pagamento
+        navigate("/payment");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "delivery-page",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+                fileName: "src/components/pages/DeliveryPage.js",
+                lineNumber: 96,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                className: "delivery-section",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Informa\xe7\xf5es de Entrega"
+                    }, void 0, false, {
+                        fileName: "src/components/pages/DeliveryPage.js",
+                        lineNumber: 98,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "pizza-list",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                children: "Suas Pizzas"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 100,
+                                columnNumber: 11
+                            }, this),
+                            pizzas.length > 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: pizzas.map((pizza, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: [
+                                            pizza.flavor,
+                                            " - Quantidade: ",
+                                            pizza.quantity
+                                        ]
+                                    }, index, true, {
+                                        fileName: "src/components/pages/DeliveryPage.js",
+                                        lineNumber: 104,
+                                        columnNumber: 17
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 102,
+                                columnNumber: 13
+                            }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Nenhuma pizza foi adicionada."
+                            }, void 0, false, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 110,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/pages/DeliveryPage.js",
+                        lineNumber: 99,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "order-total",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: [
+                                "Total do Pedido: R$",
+                                total
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/pages/DeliveryPage.js",
+                            lineNumber: 114,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/pages/DeliveryPage.js",
+                        lineNumber: 113,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                        className: "delivery-form",
+                        onSubmit: handleSubmit,
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "name",
+                                children: [
+                                    "Nome Completo",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "text",
+                                        id: "name",
+                                        placeholder: "Digite seu nome",
+                                        value: name,
+                                        onChange: (e)=>setName(e.target.value),
+                                        required: true
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/DeliveryPage.js",
+                                        lineNumber: 119,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 117,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "phone",
+                                children: [
+                                    "Telefone",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "tel",
+                                        id: "phone",
+                                        placeholder: "Digite seu telefone",
+                                        value: phone,
+                                        onChange: (e)=>setPhone(e.target.value),
+                                        required: true
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/DeliveryPage.js",
+                                        lineNumber: 130,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 128,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "cep",
+                                children: [
+                                    "CEP",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "text",
+                                        id: "cep",
+                                        placeholder: "Digite seu CEP",
+                                        value: cep,
+                                        onChange: handleCepChange,
+                                        maxLength: "8",
+                                        required: true
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/DeliveryPage.js",
+                                        lineNumber: 141,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 139,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "address",
+                                children: [
+                                    "Endere\xe7o",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "text",
+                                        id: "address",
+                                        placeholder: "Endere\xe7o",
+                                        value: address,
+                                        readOnly: true,
+                                        required: true
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/DeliveryPage.js",
+                                        lineNumber: 153,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 151,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "number",
+                                children: [
+                                    "N\xfamero",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "text",
+                                        id: "number",
+                                        placeholder: "N\xfamero da resid\xeancia",
+                                        value: number,
+                                        onChange: (e)=>setNumber(e.target.value),
+                                        required: true
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/DeliveryPage.js",
+                                        lineNumber: 164,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 162,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "complement",
+                                children: [
+                                    "Complemento",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "text",
+                                        id: "complement",
+                                        placeholder: "Complemento (opcional)",
+                                        value: complement,
+                                        onChange: (e)=>setComplement(e.target.value)
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/DeliveryPage.js",
+                                        lineNumber: 175,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 173,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "city",
+                                children: [
+                                    "Cidade",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "text",
+                                        id: "city",
+                                        placeholder: "Cidade",
+                                        value: city,
+                                        readOnly: true,
+                                        required: true
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/DeliveryPage.js",
+                                        lineNumber: 185,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 183,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "state",
+                                children: [
+                                    "Estado",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "text",
+                                        id: "state",
+                                        placeholder: "Estado",
+                                        value: state,
+                                        readOnly: true,
+                                        required: true
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/DeliveryPage.js",
+                                        lineNumber: 196,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 194,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "delivery-date",
+                                children: [
+                                    "Data de Entrega",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "date",
+                                        id: "delivery-date",
+                                        value: deliveryDate,
+                                        onChange: (e)=>setDeliveryDate(e.target.value),
+                                        required: true
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/DeliveryPage.js",
+                                        lineNumber: 207,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 205,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "delivery-time",
+                                children: [
+                                    "Hora de Entrega",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "time",
+                                        id: "delivery-time",
+                                        value: deliveryTime,
+                                        onChange: (e)=>setDeliveryTime(e.target.value),
+                                        required: true
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/DeliveryPage.js",
+                                        lineNumber: 217,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 215,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "submit",
+                                className: "submit-btn",
+                                children: "Finalizar Pedido"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/DeliveryPage.js",
+                                lineNumber: 225,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/pages/DeliveryPage.js",
+                        lineNumber: 116,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/pages/DeliveryPage.js",
+                lineNumber: 97,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/pages/DeliveryPage.js",
+        lineNumber: 95,
+        columnNumber: 5
+    }, this);
+}
+_s(DeliveryPage, "NI+hOWXnD7BKvbnEinLb2J5XtZI=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
+_c = DeliveryPage;
+exports.default = DeliveryPage;
+var _c;
+$RefreshReg$(_c, "DeliveryPage");
+
+  $parcel$ReactRefreshHelpers$c54d.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../common/header":"j7cwe","./DeliveryPage.css":"MO0Jy","react-router-dom":"9xmpe"}],"MO0Jy":[function() {},{}],"bGoLS":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$17a0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$17a0.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+var _header = require("../common/header");
+var _headerDefault = parcelHelpers.interopDefault(_header);
+var _paymentPageCss = require("./PaymentPage.css");
+var _s = $RefreshSig$();
+function PaymentPage() {
+    _s();
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const [orderData, setOrderData] = (0, _react.useState)(null);
+    const [isSubmitted, setIsSubmitted] = (0, _react.useState)(false);
+    (0, _react.useEffect)(()=>{
+        // Recuperar os dados do pedido salvos no localStorage
+        const savedOrderData = localStorage.getItem("orderData");
+        if (savedOrderData) setOrderData(JSON.parse(savedOrderData));
+        else {
+            alert("Nenhum pedido encontrado. Retornando \xe0 p\xe1gina de entrega.");
+            navigate("/delivery");
+        }
+    }, [
+        navigate
+    ]);
+    const handleSendToWhatsApp = ()=>{
+        if (orderData) {
+            const message = `
+    Ol\xe1, seja muito bem vindo(o) a Fornos Charrua! 
+ 
+    Seu Pedido de Pizza foi confirmado.
+    Seguem abaixo as informa\xe7\xf5es do seu pedido: 
+        
+
+    Nome: ${orderData.name}
+    Telefone: ${orderData.phone}
+    Endere\xe7o: ${orderData.address}, ${orderData.number}, ${orderData.complement}, ${orderData.city}, ${orderData.state}
+    Data de Entrega: ${orderData.deliveryDate}
+    Hora de Entrega: ${orderData.deliveryTime}
+    Total: R$${orderData.total}
+        
+
+Por favor, confira as informa\xe7\xf5es do seu pedido e aguarde instru\xe7\xf5es sobre o pagamento.
+        
+
+Detalhes das Pizzas:
+      ${orderData.pizzas.map((pizza)=>`${pizza.flavor} - Quantidade: ${pizza.quantity}`).join("\n")}
+      `;
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://api.whatsapp.com/send?phone=5584994084459&text=${encodedMessage}`;
+            window.open(whatsappUrl, "_blank");
+            // Limpar o localStorage após o envio
+            localStorage.removeItem("orderData");
+            // Atualizar estado para exibir a mensagem de agradecimento
+            setIsSubmitted(true);
+        } else alert("Erro ao processar o pedido. Tente novamente.");
+    };
+    if (isSubmitted) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "thank-you-page",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+                fileName: "src/components/pages/PaymentPage.js",
+                lineNumber: 62,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+                className: "thank-you-main",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Obrigado pelo seu Pedido!"
+                    }, void 0, false, {
+                        fileName: "src/components/pages/PaymentPage.js",
+                        lineNumber: 64,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Seu pedido foi enviado com sucesso. Em breve, voc\xea receber\xe1 instru\xe7\xf5es sobre o pagamento pelo WhatsApp."
+                    }, void 0, false, {
+                        fileName: "src/components/pages/PaymentPage.js",
+                        lineNumber: 65,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: ()=>navigate("/"),
+                        className: "home-btn",
+                        children: "Voltar para In\xedcio"
+                    }, void 0, false, {
+                        fileName: "src/components/pages/PaymentPage.js",
+                        lineNumber: 69,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: ()=>navigate("/menu"),
+                        className: "menu-btn",
+                        children: "Voltar ao Card\xe1pio"
+                    }, void 0, false, {
+                        fileName: "src/components/pages/PaymentPage.js",
+                        lineNumber: 72,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/pages/PaymentPage.js",
+                lineNumber: 63,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/pages/PaymentPage.js",
+        lineNumber: 61,
+        columnNumber: 7
+    }, this);
+    if (!orderData) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+        children: "Carregando informa\xe7\xf5es do pedido..."
+    }, void 0, false, {
+        fileName: "src/components/pages/PaymentPage.js",
+        lineNumber: 81,
+        columnNumber: 12
+    }, this);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "payment-page",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+                fileName: "src/components/pages/PaymentPage.js",
+                lineNumber: 86,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+                className: "payment-main",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Confirma\xe7\xe3o do Pedido"
+                    }, void 0, false, {
+                        fileName: "src/components/pages/PaymentPage.js",
+                        lineNumber: 88,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "order-summary",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                children: "Resumo do Pedido"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/PaymentPage.js",
+                                lineNumber: 90,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "pizza-list",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "Especial",
+                                        children: "Suas Pizzas"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/PaymentPage.js",
+                                        lineNumber: 92,
+                                        columnNumber: 13
+                                    }, this),
+                                    orderData.pizzas.length > 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                        children: orderData.pizzas.map((pizza, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                                children: [
+                                                    pizza.flavor,
+                                                    " - Quantidade: ",
+                                                    pizza.quantity
+                                                ]
+                                            }, index, true, {
+                                                fileName: "src/components/pages/PaymentPage.js",
+                                                lineNumber: 96,
+                                                columnNumber: 19
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/PaymentPage.js",
+                                        lineNumber: 94,
+                                        columnNumber: 15
+                                    }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Nenhuma pizza foi adicionada."
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/PaymentPage.js",
+                                        lineNumber: 102,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/PaymentPage.js",
+                                lineNumber: 91,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    "Total: R$",
+                                    orderData.total
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/PaymentPage.js",
+                                lineNumber: 105,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                children: "Informa\xe7\xf5es de Entrega"
+                            }, void 0, false, {
+                                fileName: "src/components/pages/PaymentPage.js",
+                                lineNumber: 106,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                        children: "Nome:"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/PaymentPage.js",
+                                        lineNumber: 108,
+                                        columnNumber: 13
+                                    }, this),
+                                    " ",
+                                    orderData.name
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/PaymentPage.js",
+                                lineNumber: 107,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                        children: "Telefone:"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/PaymentPage.js",
+                                        lineNumber: 111,
+                                        columnNumber: 13
+                                    }, this),
+                                    " ",
+                                    orderData.phone
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/PaymentPage.js",
+                                lineNumber: 110,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                        children: "Endere\xe7o:"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/PaymentPage.js",
+                                        lineNumber: 114,
+                                        columnNumber: 13
+                                    }, this),
+                                    " ",
+                                    orderData.address,
+                                    ", ",
+                                    orderData.number,
+                                    ",",
+                                    " ",
+                                    orderData.complement,
+                                    ", ",
+                                    orderData.city,
+                                    ", ",
+                                    orderData.state
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/PaymentPage.js",
+                                lineNumber: 113,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                        children: "Data de Entrega:"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/PaymentPage.js",
+                                        lineNumber: 118,
+                                        columnNumber: 13
+                                    }, this),
+                                    " ",
+                                    orderData.deliveryDate
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/PaymentPage.js",
+                                lineNumber: 117,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                        children: "Hora de Entrega:"
+                                    }, void 0, false, {
+                                        fileName: "src/components/pages/PaymentPage.js",
+                                        lineNumber: 121,
+                                        columnNumber: 13
+                                    }, this),
+                                    " ",
+                                    orderData.deliveryTime
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/pages/PaymentPage.js",
+                                lineNumber: 120,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/pages/PaymentPage.js",
+                        lineNumber: 89,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: handleSendToWhatsApp,
+                        className: "confirm-btn",
+                        children: "Confirmar Pedido via WhatsApp"
+                    }, void 0, false, {
+                        fileName: "src/components/pages/PaymentPage.js",
+                        lineNumber: 124,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "instructions",
+                        children: "Clique no bot\xe3o acima para confirmar seu pedido via WhatsApp. Voc\xea receber\xe1 instru\xe7\xf5es sobre o pagamento."
+                    }, void 0, false, {
+                        fileName: "src/components/pages/PaymentPage.js",
+                        lineNumber: 127,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/pages/PaymentPage.js",
+                lineNumber: 87,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/pages/PaymentPage.js",
+        lineNumber: 85,
+        columnNumber: 5
+    }, this);
+}
+_s(PaymentPage, "0A/mrD7OKMA1gmiP4ECLEN30Qlk=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
+_c = PaymentPage;
+exports.default = PaymentPage;
+var _c;
+$RefreshReg$(_c, "PaymentPage");
+
+  $parcel$ReactRefreshHelpers$17a0.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe","./PaymentPage.css":"cyrru","../common/header":"j7cwe"}],"cyrru":[function() {},{}]},["farZc","1xC6H","8lqZg"], "8lqZg", "parcelRequire5129")
 
 //# sourceMappingURL=index.975ef6c8.js.map

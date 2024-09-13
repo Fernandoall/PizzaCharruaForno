@@ -1,66 +1,82 @@
+/* MenuItem.css */
 .menu-item {
-  border-bottom: 1px solid #ddd;
-  padding: 15px 0;
-  display: flex;
-  align-items: center;
+  background-color: #222; /* Fundo escuro para o item */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  width: 250px; /* Largura do item */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribui espaço uniformemente */
+  min-height: 400px; /* Garante altura mínima para consistência */
 }
 
 .menu-item:hover {
-  transform: scale(1.02);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); /* Efeito de aumento no hover */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Sombra mais intensa no hover */
 }
 
 .menu-item-image {
-  width: 100px;
-  height: 100px;
-  border-radius: 8px;
-  margin-right: 15px;
+  width: 100%; /* Imagem ocupa toda a largura do item */
+  height: 150px; /* Altura fixa para a imagem */
+  object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+  border-radius: 8px; /* Bordas arredondadas */
+  margin-bottom: 15px; /* Espaçamento abaixo da imagem */
 }
 
-.menu-item h3 {
-  font-size: 2em;
-  color: #388e3c; /* Verde destacado */
-  margin: 0;
+.menu-item-details {
+  flex-grow: 1; /* Faz com que os detalhes ocupem o espaço restante */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribui espaço uniformemente */
 }
 
-.menu-item p {
+.menu-item-details h3 {
+  font-size: 1.8em; /* Tamanho do título ajustado */
+  color: #ff6600; /* Cor destacada */
+  margin: 0 0 10px 0; /* Margem apenas embaixo */
+}
+
+.menu-item-details p {
+  font-size: 1.2em; /* Tamanho do texto ajustado */
+  color: #faf3e0; /* Texto claro para contraste */
   margin: 10px 0;
-  font-size: 1.2em;
-  color: #795548; /* Tom de madeira */
 }
 
-.menu-item span {
-  font-size: 1.5em;
-  color: #d32f2f; /* Vermelho para o preço */
+.menu-item-details span {
+  font-size: 1.5em; /* Tamanho do preço ajustado */
+  color: #ff6600; /* Cor do preço */
+  display: block; /* Exibe o preço em bloco separado */
+  margin: 10px 0;
 }
 
 button {
-  background-color: #d32f2f;
-  color: #faf3e0;
+  background-color: #ff6600; /* Cor de fundo do botão */
+  color: #faf3e0; /* Cor do texto do botão */
   border: none;
   padding: 10px 20px;
   font-size: 1.2em;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: auto; /* Faz com que o botão fique na parte inferior do card */
 }
 
 button:hover {
-  background-color: #ffeb3b; /* Amarelo para o hover */
-  color: #388e3c; /* Verde escuro no hover */
+  background-color: #ff4500; /* Cor de fundo do botão no hover */
+  color: black; /* Cor do texto do botão no hover */
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
   .menu-item {
-    flex-direction: column;
-    align-items: flex-start;
+    width: 100%; /* Largura completa em telas menores */
+    margin-bottom: 20px; /* Espaço abaixo dos itens em telas menores */
   }
 
   .menu-item-image {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 10px;
+    height: 120px; /* Altura ajustada para telas menores */
   }
 }
